@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: LeaveManagement
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.professionals.leavemanagement: INFO
+
+leave-management:
+  max-leave-duration-days: 35
